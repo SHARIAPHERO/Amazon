@@ -1,7 +1,58 @@
-h1{
-    color:darkcyan
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
 }
-button{
-    background-color: skyblue;
-    color: rgb (23,65,56)
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(images/aaaaaa);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+   
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    
+}
+/** box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+.nav-serach{
+    display: flex;
+    background-color: pink;
+    width: 62px;
+    height: 40px;
+    border-radius: 4px;
+.serach-select{
+    background-color: #f3f3f3;
+}
+
 }
